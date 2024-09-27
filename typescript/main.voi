@@ -1,0 +1,10 @@
+(?func main => {
+    (write(runVar()))
+    (?if(is.Runner()) {
+        Run.Stat(?if ==> Done[0])
+    })
+})
+
+// export module
+(Run.Export(Done()))
+***libWat.js.Import(0);

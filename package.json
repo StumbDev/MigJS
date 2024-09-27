@@ -1,0 +1,20 @@
+{
+    "name": "migjs",
+    "version": "0.0.1",
+    "main": "./typescript/libwat.js",
+    "type": "module",
+    "repository": "https://github.com/StumbDev/MigJS.git",
+    "author": "StumbDev <stumbledeveloper@hotmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "commander": "^12.1.0",
+        "gulp": "^5.0.0",
+        "gulp-cli": "^3.0.0",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "shelljs": "^0.8.5",
+        "typescript": "^5.6.2",
+        "voilascript": "^0.2.13-vyne2voila",
+        "wabt": "^1.0.36"
+    }
+}
